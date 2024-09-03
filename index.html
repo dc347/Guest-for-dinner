@@ -92,9 +92,14 @@
                 image: "https://via.placeholder.com/600x400.png?text=Risotto+alla+Milanese",
                 ingredients: ["300g riso", "Zafferano", "Brodo di carne", "50g burro", "Parmigiano Reggiano"],
                 instructions: "Cuoci il riso nel brodo. Aggiungi lo zafferano e manteca con burro e Parmigiano."
-            }
-            // Aggiungi altre ricette qui
-        ];
+            },
+            {     
+            title: "Amatriciana" ,
+                 image: "http://via.placeholde.com/600x400.pn?text=Amatriciana" ,
+                 ingredients: ["100g spaghetti" , " pomodoro " , " 50g pecorino " , "100g guanciale"],
+                 instruction: "Cuoci la pasta. Cuoci il guanciale e pomodoro mescola con la pasta cotta e condisci con pecorino grattuggiato. "
+           },
+    // inserisci nuove ricette qui
 
         function fetchRandomRecipe() {
             const randomIndex = Math.floor(Math.random() * recipes.length);
