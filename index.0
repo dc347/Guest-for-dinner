@@ -1,0 +1,10 @@
+.recipe-container {
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+    max-height: 80vh; /* Imposta un'altezza massima per permettere lo scrolling */
+}
