@@ -87,6 +87,37 @@
                 ingredients: ["200g pasta", "100g guanciale", "2 uova", "Pecorino", "Pepe nero"],
                 instructions: "Cuoci la pasta. Prepara il guanciale in padella. Sbatti le uova con il pecorino e il pepe. Unisci tutto e servi caldo."
             },
+                </header>
+
+    <main>
+        <section id="recipe-container">
+            <h2 id="recipe-title">Pasta alla Carbonara</h2>
+            <img id="recipe-image" src="https://via.placeholder.com/600x400.png?text=Pasta+alla+Carbonara" alt="Pasta alla Carbonara">
+            <h3>Ingredienti:</h3>
+            <ul id="recipe-ingredients">
+                <li>200g pasta</li>
+                <li>100g guanciale</li>
+                <li>Pecorino</li>
+                <li>Pepe nero</li>
+            </ul>
+            <h3>Procedura:</h3>
+            <p id="recipe-instructions">Cuoci la pasta. Prepara il guanciale in padella. Sbatti le uova con il pecorino e il pepe. Unisci tutto e servi caldo.</p>
+        </section>
+        <button onclick="fetchRandomRecipe()">Nuova Ricetta</button>
+    </main>
+
+    <footer>
+        <p>Contatti | Social Media | Crediti</p>
+    </footer>
+
+    <script>
+        const recipes = [
+            {
+                title: "Pasta alla Amatriciana",
+                image: "https://via.placeholder.com/600x400.png?text=Pasta+alla+Carbonara",
+                ingredients: ["200g pasta", "100g pomodoro", "100g pecorin" , "Pecorino", "Pepe nero"],
+                instructions: "Cuoci la pasta. Prepara il guanciale in padella. Sbatti le uova con il pecorino e il pepe. Unisci tutto e servi caldo."
+            },
             {
                 title: "Risotto alla Milanese",
                 image: "https://via.placeholder.com/600x400.png?text=Risotto+alla+Milanese",
