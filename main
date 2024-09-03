@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guest for Dinner - Ricette Italiane</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .recipe {
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .image-placeholder {
+            background-color: #ecf0f1;
+            color: #7f8c8d;
+            height: 200px;
+            text-align: center;
+            line-height: 200px;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Guest for Dinner</h1>
+    <p>10 Ricette Italiane Casuali</p>
+</header>
+
+<main>
+    <div class="recipe">
+        <h2>1. Spaghetti alla Carbonara</h2>
+        <p>Una classica ricetta romana a base di uova, guanciale, pecorino romano e pepe nero.</p>
+        <div class="image-placeholder">Immagine della ricetta</div>
+    </div>
+
+    <div class="recipe">
+        <h2>2. Risotto alla Milanese</h2>
+        <p>Un piatto tradizionale lombardo preparato con riso, zafferano e brodo di carne.</p>
+        <div class="image-placeholder">Immagine della ricetta</div>
+    </div>
+
+    <div class="recipe">
+        <h2>3. Lasagne alla Bolognese</h2>
+        <p>Strati di pasta all'uovo, ragù alla bolognese, besciamella e parmigiano reggiano.</p>
+        <div class="image-placeholder">Immagine della ricetta</div>
+    </div>
+
+    <div class="recipe">
+        <h2>4. Parmigiana di Melanzane</h2>
+        <p>Un piatto ricco a base di melanzane fritte, mozzarella, salsa di pomodoro e basilico.</p>
+        <div class="image-placeholder">Immagine della ricetta</div>
+    </div>
+
+    <div class="recipe">
+        <h2>5. Orecchiette con le Cime di Rapa</h2>
+        <p>Un primo piatto pugliese con pasta fresca, cime di rapa, aglio e acciughe.</p>
+        <div class="image-placeholder">Immagine della ricetta</div>
+    </div>
+
+    <div class="recipe">
+        <h2>6. Tiramisu</h2>
+        <p>Il celebre dolce al cucchiaio a base di mascarpone, caffè, savoiardi e cacao amaro.</p>
+        <div class="image-placeholder">Immagine della ricetta</div>
+    </div>
+
+    <div class="recipe">
+        <h2>7. Frittata di Zucchine</h2>
+        <p>Un piatto semplice e versatile preparato con uova, zucchine e parmigiano.</p>
+        <div class="image-placeholder">Immagine della ricetta</div>
+    </div>
+
+    <div class="recipe">
+        <h2>8. Polenta con Salsiccia</h2>
+        <p>Un piatto del nord Italia con polenta, salsiccia e sugo di pomodoro.</p>
+        <div class="image-placeholder">Immagine della ricetta</div>
+    </div>
+
+    <div class="recipe">
+        <h2>9. Minestrone</h2>
+        <p>Una zuppa nutriente con una varietà di verdure fresche, legumi e pasta.</p>
+        <div class="image-placeholder">Immagine della ricetta</div>
+    </div>
+
+    <div class="recipe">
+        <h2>10. Panna Cotta</h2>
+        <p>Un dolce delicato a base di panna, zucchero e vaniglia, spesso servito con frutti di bosco.</p>
+        <div class="image-placeholder">Immagine della ricetta</div>
+    </div>
+</main>
+
+</body>
+</html>
